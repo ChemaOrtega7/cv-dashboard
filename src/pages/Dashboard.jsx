@@ -272,7 +272,7 @@ const Dashboard = () => {
                       <CardTitle className="text-2xl text-slate-100 mb-2">{getText(exp.position, language)}</CardTitle>
                       <CardDescription className="text-lg text-cyan-400">{getText(exp.company, language)}</CardDescription>
                     </div>
-                    <Button variant="ghost" size="sm" className="text-slate-400">
+                    <Button variant="ghost" size="sm" className="text-red-500 hover:text-red-400 hover:bg-red-500/10">
                       {expandedExp === exp.id ? <ChevronUp /> : <ChevronDown />}
                     </Button>
                   </div>
