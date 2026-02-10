@@ -324,11 +324,11 @@ export const cvData = {
   technologyUsage: [
     { technology: "Power BI", years: 8, projects: 45 },
     { technology: "Excel", years: 15, projects: 100 },
-    { technology: "SQL", years: 10, projects: 60 },
+    { technology: "SQL", years: 2, projects: 10 },
     { technology: "DAX", years: 8, projects: 50 },
     { technology: "Power Query", years: 7, projects: 48 },
     { technology: "NAVISION", years: 15, projects: 5 },
-    { technology: "SharePoint", years: 6, projects: 30 }
+    { technology: "SharePoint", years: 1, projects: 3 }
   ],
   certificationTimeline: [
     { year: 2015, count: 1, name: "Power Tools" },
